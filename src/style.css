@@ -72,12 +72,6 @@ body{
     text-align: center;
 }
 
-.section-1{
-    height: 500px;
-    background-color: #0c54bc;
-
-}
-
 .section-2{
     height: 500px;
     background-color: gainsboro;
@@ -104,24 +98,6 @@ body{
     text-align: center;
 }
 
-.col-3{
-    width: 33.08%;
-    height: 470px;
-    background-color: aquamarine;
-    display: inline-block;
-    padding: -15px;
-    margin-top: 5px;
-    text-align: center;
-}
-.col-3A{
-    width: 33.08%;
-    height: 470px;
-    background-color: #ccccdc;
-    display: inline-block;
-    padding: -15px;
-    margin-top: 5px;
-    text-align: center;
-}
 .col-5{
     width: 19%;
     height: 470px;
@@ -228,4 +204,20 @@ hr{
 .main-menu__link:hover{
     text-decoration: underline;
     font-weight: bold;
+}
+
+.servicios{
+    background-color: #ccccdc;
+    display:flex;
+    justify-content: space-evenly;
+    text-align:justify;
+    padding: 25px;
+    bottom: 0;
+
+
+}
+
+.servicios__contenedor{
+    margin: 20px;
+    
 }
