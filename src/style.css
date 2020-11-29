@@ -1,209 +1,54 @@
 body{
     margin-top: 0px;
     font-family: Arial, Helvetica, sans-serif;
-}
-
-.container{
+    background-color: #434b5f;
     width: 1200px;
-    background-color: #888888;
-    height: 2000px;
-    -ms-flex-item-align: center;
-        align-self: center;
-    margin: 0px auto;
-    padding: 0 auto;
 }
 
-.header{
-    background-color: aqua;
-    height: auto;
-    
+.titulo {
+color: black; font-weight: 900; font-size: x-large; text-align: left; font: bold;
+
 }
 
-.container-menu{
-    height: 60px;
-    background-color: antiquewhite;
-    display: -webkit-box;
-    display: -ms-flexbox;
+
+.barra{
     display: flex;
-    width: 100%;
-
-}
-.container-logo{
-    width: 100%;
-    height: inherit;
-    background-color: azure;
-    text-align: center;
-}
-
-.site-title{
-    margin: 0;
-    padding: 0.36em 0;
-}
-
-.container-imagen{
-    background-image: url('./bg.png');
-    height: 240px;
-    /* margin-bottom: 20px; */
-}
-
-.nav-list{
+    background-color:  #ccccdc;
     padding: 0.25em 0;
     list-style-type: none;
     text-align: end;
-    width: 100%
-}
-
-.nav-element{
-    padding: 1em 15px;
-    display: inline-block;
-    text-decoration: none;
-    color: #3e3e3e;
-
-}
-
-.nav-element:hover{
-    text-decoration: underline;
-    font-weight: bold;
-}
-
-.image-text{
-    margin: 0;
-    padding: 9% 0;
-    text-align: center;
-}
-
-.section-2{
-    height: 500px;
-    background-color: gainsboro;
-}
-
-.section-3{
-    height: 500px;
-    background-color: coral;
-}
-
-.footer{
-    height: 200px;
-    background-color: yellowgreen;
-    bottom: 0px;
-    /* position: fixed; */
-    /* width: 1200px; */
-}
-
-.section-text{
-    margin: 0;
-    color: #3e3e3e;
-    background: white;
-    font-weight: bold;
-    text-align: center;
-}
-
-.col-5{
-    width: 19%;
-    height: 470px;
-    display: inline-block;
-    margin: 5px 4px 0;
-    text-align: center;
-    background-color: rgb(255, 177, 148);
-}
-
-.service-content{
-    padding: 0.5em 0;
-}
-.service-text{
-    padding: 10px;
-    text-align: justify;
-    bottom: 0;
-}
-
-.service-text.memebers{
-    font-style: italic; 
-}
-
-.section-news > div:first-child{
-    margin-bottom: 2px; 
-}
-.news{
     width: 100%;
-    background-color: cadetblue;
-    height: 240px;
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
 }
 
-.news > div:first-child{
-    margin: 0 6px;
+.titulo, .elementos {
+    width: 50%;
 }
 
-.news-data{
-    width: 49%;
-    height: 100%;
-    background-color: rebeccapurple;
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
-    display: inline-flex; 
-}
 
-.news-image{
-    margin: 10px 0;
-    padding: 0 40px;
-    color: white;
-}
-
-.news-text{
-    color: white;
-    text-align: justify;
-    width: 49%;
-    padding: 1em 0;
-}
-
-.news-text > span.news-url{
+.banner {
+    width: 1200px;
+    height: 400px;
+  }
+li{
+    padding: 10px;
+    display: inline-block;
+    color: black;
     text-align: right;
+    font-weight: 900;
+    font-size: larger; 
 }
 
-
-.fa-ambulance.news-logo{
-    padding: 0.25em 0;
-}
-
-
-.news-url{
-    font-size: 10px;
-    float: right;
-}
-
-.news-url > a{
-
-    color: #ffffff; 
+footer{
+    height: 200x;
+    background-color: #ccccdc;
+    display: inline-block;
+    padding: -15px;
+    margin-top: 5px0;
+    text-align: center;
 }
 
 hr{
     color: white;
-}
-
-.main-menu{
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-left: 0;
-    list-style: none;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.main-menu__item{
-    line-height: 3;
-}
-
-.main-menu__link{
-    text-decoration: none;
-    font-size: 1em;
-    color: #3e3e3e;
-}
-
-.main-menu__link:hover{
-    text-decoration: underline;
-    font-weight: bold;
 }
 
 .servicios{
@@ -220,6 +65,24 @@ hr{
 }
 
 .servicios__contenedor{
+    margin: 20px;
+    
+}
+
+.equipo{
+    background-color: #ccccdc;
+    display:flex;
+    justify-content: space-evenly;
+    text-align:justify;
+    padding: 25px;
+    bottom: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+
+}
+
+.equipo__contenedor{
     margin: 20px;
     
 }
