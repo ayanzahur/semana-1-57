@@ -69,6 +69,18 @@ hr{
     
 }
 
+.noticias{
+    background-color: #ccccdc;
+    display:flex;
+    justify-content: space-evenly;
+    text-align:justify;
+    padding: 25px;
+}
+.noticias__contenedor{
+    margin: 20px;
+    padding: 0.5em 0;
+}
+
 .equipo{
     background-color: #ccccdc;
     display:flex;
